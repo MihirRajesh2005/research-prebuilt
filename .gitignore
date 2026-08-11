@@ -25,9 +25,11 @@ env/
 .coverage
 htmlcov/
 .cache/
+external
+external/
 
 # ────────────────── Project secrets ──────────────────
-.env            # Discord token / other private keys
+.env         
 *.env
 
 # ────────────────── Editors / OS ──────────────────
