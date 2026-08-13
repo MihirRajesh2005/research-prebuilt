@@ -47,7 +47,7 @@ onnx.save_model(
     save_as_external_data=True,
     all_tensors_to_one_file=True,
     location="rt_hdr_alb_nrm.onnx.data",
-    size_threshold=0
+    size_threshold=1024
 )
 
 onnx.checker.check_model(fp32_model)
