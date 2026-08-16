@@ -5,6 +5,7 @@ packaging
 protobuf
 sympy
 onnx
+OpenEXR
 
 
 pip install --pre --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/ort-cuda-13-nightly/pypi/simple/ onnxruntime-gpu
